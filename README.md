@@ -6,7 +6,7 @@
   
 Установка и развёртвывание zapret antiDPI под ключ на российских VPS (проверено на rocketcloud.ru) копируем и вставляем в ssh:  
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/IndeecFOX/zapret4rocket/refs/heads/master/fast_install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/Kokoc-tech/zapret4rocket/refs/heads/master/fast_install.sh)
 ```  
 На все вопросы жмём Enter (В самом начале скрипт спрашивает установить ли 3x-ui панель или аналоги (жмите Enter, если ничего не нужно или введите соответствущий текст)).   
 По окончании всех прожатий enter всё будет работать.   
@@ -21,7 +21,7 @@ vless://test@45.156.21.250:443?type=tcp&security=reality&pbk=T_PUQPpUcIDBj3bD5Cw
 ```
 Fork Upd 07.02.25: добавлен простенький скрипт для установки на OpenWRT
 ```
-opkg update && opkg install bash curl && bash <(curl -Ls https://raw.githubusercontent.com/IndeecFOX/zapret4rocket/refs/heads/master/fast_install_for_OWRT.sh)
+opkg update && opkg install bash curl && bash <(curl -Ls https://raw.githubusercontent.com/Kokoc-tech/zapret4rocket/refs/heads/master/fast_install_for_OWRT.sh)
 ``` 
 Upd 08.02.25:
 - Update zapret to v70
